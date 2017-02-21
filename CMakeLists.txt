@@ -1,0 +1,2 @@
+project(tree_based_search)
+add_graphlab_executable(tree_based_search tree_based_search.cpp)

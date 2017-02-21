@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	define.h	6;"	d
+ALL_MATCH	define.h	1;"	d
+B	define.h	7;"	d
+C	define.h	8;"	d
+D	define.h	9;"	d
+DIR_IN	define.h	3;"	d
+DIR_OUT	define.h	4;"	d
+E	define.h	10;"	d
+F	define.h	11;"	d
+G	define.h	12;"	d
+H	define.h	13;"	d
+I	define.h	14;"	d
+J	define.h	15;"	d
+K	define.h	16;"	d
+L	define.h	17;"	d
+M	define.h	18;"	d
+N	define.h	19;"	d
+NONE	define.h	5;"	d
+NO_MATCH	define.h	2;"	d
+X	define.h	20;"	d
+Z	define.h	21;"	d
+apply	tree_based_search.cpp	/^	void apply(icontext_type& context, vertex_type& vertex, const gather_type& total) {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, vertex_type& vertex, const gather_type& total)
+candidate	sparql.hpp	/^	int candidate;$/;"	m	class:match_answer	access:public
+cartesian_product_plan	sparql.hpp	/^	std::vector<std::vector<int> > cartesian_product_plan;$/;"	m	class:tree_sparql	access:public
+current_results	tree_based_search.cpp	/^	std::vector<match_answer> current_results;$/;"	m	struct:rdf_vertex	file:	access:public
+edge_dir	sparql.hpp	/^	int edge_dir;$/;"	m	class:single_vertex	access:public
+edge_intlable	tree_based_search.cpp	/^    int edge_intlable;$/;"	m	class:rdf_edge	file:	access:public
+edge_value	sparql.hpp	/^	int edge_value;$/;"	m	class:single_vertex	access:public
+father_vertex_value	sparql.hpp	/^	int father_vertex_value;$/;"	m	class:single_vertex	access:public
+gather_edges	tree_based_search.cpp	/^	edge_dir_type gather_edges(icontext_type& context, const vertex_type& vertex) const {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex) const
+get_cartesian_product	tree_based_search.cpp	/^std::vector<std::vector<match_answer> > get_cartesian_product(std::vector<std::vector<match_answer> > & c1, $/;"	f	signature:(std::vector<std::vector<match_answer> > & c1, std::vector<std::vector<match_answer> > & c2)
+graph_id	tree_based_search.cpp	/^	int graph_id;$/;"	m	class:rdf_edge	file:	access:public
+graph_type	tree_based_search.cpp	/^typedef graphlab::distributed_graph<rdf_vertex, rdf_edge> graph_type;$/;"	t	file:
+graph_writer	tree_based_search.cpp	/^class graph_writer{$/;"	c	file:
+graph_writer::save_edge	tree_based_search.cpp	/^    std::string save_edge(graph_type::edge_type e) {$/;"	f	class:graph_writer	access:public	signature:(graph_type::edge_type e)
+graph_writer::save_vertex	tree_based_search.cpp	/^    std::string save_vertex(graph_type::vertex_type v) {$/;"	f	class:graph_writer	access:public	signature:(graph_type::vertex_type v)
+height	sparql.hpp	/^	int height;$/;"	m	class:tree_sparql	access:public
+id	sparql.hpp	/^	int id;$/;"	m	class:match_answer	access:public
+init	tree_based_search.cpp	/^	void init(icontext_type& context, const vertex_type& vertex, const scatter_type& msg) {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex, const scatter_type& msg)
+init_test_sparql	sparql.hpp	/^	void init_test_sparql(){$/;"	f	class:tree_sparql	access:public	signature:()
+is_leaf	sparql.hpp	/^	bool is_leaf;$/;"	m	class:single_vertex	access:public
+iteration_count	tree_based_search.cpp	/^    int iteration_count;$/;"	m	struct:rdf_vertex	file:	access:public
+line_parser	tree_based_search.cpp	/^bool line_parser(graph_type& graph, const std::string& filename, const std::string& textline){$/;"	f	signature:(graph_type& graph, const std::string& filename, const std::string& textline)
+load	sparql.hpp	/^	void load(graphlab::iarchive& iarc) {$/;"	f	class:match_answer	access:public	signature:(graphlab::iarchive& iarc)
+load	sparql.hpp	/^	void load(graphlab::iarchive& iarc) {$/;"	f	class:scatter_type	access:public	signature:(graphlab::iarchive& iarc)
+load	tree_based_search.cpp	/^    void load(graphlab::iarchive& iarc){$/;"	f	class:rdf_edge	access:public	signature:(graphlab::iarchive& iarc)
+load	tree_based_search.cpp	/^    void load(graphlab::iarchive& iarc){$/;"	f	struct:rdf_vertex	access:public	signature:(graphlab::iarchive& iarc)
+main	tree_based_search.cpp	/^int main(int argc, char** argv) {$/;"	f	signature:(int argc, char** argv)
+match_answer	sparql.hpp	/^	match_answer () {}$/;"	f	class:match_answer	access:public	signature:()
+match_answer	sparql.hpp	/^	match_answer(int e_id, int e_candidate) : id(e_id), candidate(e_candidate) {}$/;"	f	class:match_answer	access:public	signature:(int e_id, int e_candidate)
+match_answer	sparql.hpp	/^class match_answer{$/;"	c
+match_answer::candidate	sparql.hpp	/^	int candidate;$/;"	m	class:match_answer	access:public
+match_answer::id	sparql.hpp	/^	int id;$/;"	m	class:match_answer	access:public
+match_answer::load	sparql.hpp	/^	void load(graphlab::iarchive& iarc) {$/;"	f	class:match_answer	access:public	signature:(graphlab::iarchive& iarc)
+match_answer::match_answer	sparql.hpp	/^	match_answer () {}$/;"	f	class:match_answer	access:public	signature:()
+match_answer::match_answer	sparql.hpp	/^	match_answer(int e_id, int e_candidate) : id(e_id), candidate(e_candidate) {}$/;"	f	class:match_answer	access:public	signature:(int e_id, int e_candidate)
+match_answer::save	sparql.hpp	/^void save(graphlab::oarchive& oarc) const {$/;"	f	class:match_answer	access:public	signature:(graphlab::oarchive& oarc) const
+match_answers	sparql.hpp	/^	std::vector<match_answer> match_answers;$/;"	m	class:scatter_type	access:public
+operator +=	sparql.hpp	/^	scatter_type operator+=(const scatter_type& st){$/;"	f	class:scatter_type	access:public	signature:(const scatter_type& st)
+rdf_edge	tree_based_search.cpp	/^	rdf_edge() {}$/;"	f	class:rdf_edge	access:public	signature:()
+rdf_edge	tree_based_search.cpp	/^    rdf_edge(int intlable, int id) : edge_intlable(intlable), graph_id(id){ }$/;"	f	class:rdf_edge	access:public	signature:(int intlable, int id)
+rdf_edge	tree_based_search.cpp	/^class rdf_edge{$/;"	c	file:
+rdf_edge::edge_intlable	tree_based_search.cpp	/^    int edge_intlable;$/;"	m	class:rdf_edge	file:	access:public
+rdf_edge::graph_id	tree_based_search.cpp	/^	int graph_id;$/;"	m	class:rdf_edge	file:	access:public
+rdf_edge::load	tree_based_search.cpp	/^    void load(graphlab::iarchive& iarc){$/;"	f	class:rdf_edge	access:public	signature:(graphlab::iarchive& iarc)
+rdf_edge::rdf_edge	tree_based_search.cpp	/^	rdf_edge() {}$/;"	f	class:rdf_edge	access:public	signature:()
+rdf_edge::rdf_edge	tree_based_search.cpp	/^    rdf_edge(int intlable, int id) : edge_intlable(intlable), graph_id(id){ }$/;"	f	class:rdf_edge	access:public	signature:(int intlable, int id)
+rdf_edge::save	tree_based_search.cpp	/^    void save(graphlab::oarchive& oarc) const{$/;"	f	class:rdf_edge	access:public	signature:(graphlab::oarchive& oarc) const
+rdf_vertex	tree_based_search.cpp	/^	rdf_vertex() {}$/;"	f	struct:rdf_vertex	access:public	signature:()
+rdf_vertex	tree_based_search.cpp	/^    rdf_vertex(int intlable) : vertex_intlable(intlable), iteration_count(0) { }$/;"	f	struct:rdf_vertex	access:public	signature:(int intlable)
+rdf_vertex	tree_based_search.cpp	/^struct rdf_vertex{$/;"	s	file:
+rdf_vertex::current_results	tree_based_search.cpp	/^	std::vector<match_answer> current_results;$/;"	m	struct:rdf_vertex	file:	access:public
+rdf_vertex::iteration_count	tree_based_search.cpp	/^    int iteration_count;$/;"	m	struct:rdf_vertex	file:	access:public
+rdf_vertex::load	tree_based_search.cpp	/^    void load(graphlab::iarchive& iarc){$/;"	f	struct:rdf_vertex	access:public	signature:(graphlab::iarchive& iarc)
+rdf_vertex::rdf_vertex	tree_based_search.cpp	/^	rdf_vertex() {}$/;"	f	struct:rdf_vertex	access:public	signature:()
+rdf_vertex::rdf_vertex	tree_based_search.cpp	/^    rdf_vertex(int intlable) : vertex_intlable(intlable), iteration_count(0) { }$/;"	f	struct:rdf_vertex	access:public	signature:(int intlable)
+rdf_vertex::results	tree_based_search.cpp	/^    std::vector<match_answer> results;$/;"	m	struct:rdf_vertex	file:	access:public
+rdf_vertex::save	tree_based_search.cpp	/^    void save(graphlab::oarchive& oarc) const{$/;"	f	struct:rdf_vertex	access:public	signature:(graphlab::oarchive& oarc) const
+rdf_vertex::vertex_intlable	tree_based_search.cpp	/^    int vertex_intlable;$/;"	m	struct:rdf_vertex	file:	access:public
+results	tree_based_search.cpp	/^    std::vector<match_answer> results;$/;"	m	struct:rdf_vertex	file:	access:public
+root_id	sparql.hpp	/^	int root_id;$/;"	m	class:tree_sparql	access:public
+save	sparql.hpp	/^	void save(graphlab::oarchive& oarc) const {$/;"	f	class:scatter_type	access:public	signature:(graphlab::oarchive& oarc) const
+save	sparql.hpp	/^void save(graphlab::oarchive& oarc) const {$/;"	f	class:match_answer	access:public	signature:(graphlab::oarchive& oarc) const
+save	tree_based_search.cpp	/^    void save(graphlab::oarchive& oarc) const{$/;"	f	class:rdf_edge	access:public	signature:(graphlab::oarchive& oarc) const
+save	tree_based_search.cpp	/^    void save(graphlab::oarchive& oarc) const{$/;"	f	struct:rdf_vertex	access:public	signature:(graphlab::oarchive& oarc) const
+save_edge	tree_based_search.cpp	/^    std::string save_edge(graph_type::edge_type e) {$/;"	f	class:graph_writer	access:public	signature:(graph_type::edge_type e)
+save_vertex	tree_based_search.cpp	/^    std::string save_vertex(graph_type::vertex_type v) {$/;"	f	class:graph_writer	access:public	signature:(graph_type::vertex_type v)
+scatter	tree_based_search.cpp	/^	void scatter(icontext_type& context, const vertex_type& vertex, edge_type& edge) const {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex, edge_type& edge) const
+scatter_current_results	tree_based_search.cpp	/^	bool scatter_current_results;$/;"	m	class:tree_based_search	file:	access:private
+scatter_edges	tree_based_search.cpp	/^	edge_dir_type scatter_edges(icontext_type& context, const vertex_type& vertex) const {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex) const
+scatter_type	sparql.hpp	/^class scatter_type{$/;"	c
+scatter_type::load	sparql.hpp	/^	void load(graphlab::iarchive& iarc) {$/;"	f	class:scatter_type	access:public	signature:(graphlab::iarchive& iarc)
+scatter_type::match_answers	sparql.hpp	/^	std::vector<match_answer> match_answers;$/;"	m	class:scatter_type	access:public
+scatter_type::operator +=	sparql.hpp	/^	scatter_type operator+=(const scatter_type& st){$/;"	f	class:scatter_type	access:public	signature:(const scatter_type& st)
+scatter_type::save	sparql.hpp	/^	void save(graphlab::oarchive& oarc) const {$/;"	f	class:scatter_type	access:public	signature:(graphlab::oarchive& oarc) const
+single_vertex	sparql.hpp	/^class single_vertex{$/;"	c
+single_vertex::edge_dir	sparql.hpp	/^	int edge_dir;$/;"	m	class:single_vertex	access:public
+single_vertex::edge_value	sparql.hpp	/^	int edge_value;$/;"	m	class:single_vertex	access:public
+single_vertex::father_vertex_value	sparql.hpp	/^	int father_vertex_value;$/;"	m	class:single_vertex	access:public
+single_vertex::is_leaf	sparql.hpp	/^	bool is_leaf;$/;"	m	class:single_vertex	access:public
+single_vertex::vertex_id	sparql.hpp	/^	int vertex_id;$/;"	m	class:single_vertex	access:public
+single_vertex::vertex_value	sparql.hpp	/^	int vertex_value;$/;"	m	class:single_vertex	access:public
+st	tree_based_search.cpp	/^	scatter_type st;$/;"	m	class:tree_based_search	file:	access:private
+tree_based_search	tree_based_search.cpp	/^class tree_based_search :$/;"	c	file:	inherits:graphlab::ivertex_program,graphlab::IS_POD_TYPE
+tree_based_search::apply	tree_based_search.cpp	/^	void apply(icontext_type& context, vertex_type& vertex, const gather_type& total) {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, vertex_type& vertex, const gather_type& total)
+tree_based_search::gather_edges	tree_based_search.cpp	/^	edge_dir_type gather_edges(icontext_type& context, const vertex_type& vertex) const {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex) const
+tree_based_search::init	tree_based_search.cpp	/^	void init(icontext_type& context, const vertex_type& vertex, const scatter_type& msg) {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex, const scatter_type& msg)
+tree_based_search::scatter	tree_based_search.cpp	/^	void scatter(icontext_type& context, const vertex_type& vertex, edge_type& edge) const {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex, edge_type& edge) const
+tree_based_search::scatter_current_results	tree_based_search.cpp	/^	bool scatter_current_results;$/;"	m	class:tree_based_search	file:	access:private
+tree_based_search::scatter_edges	tree_based_search.cpp	/^	edge_dir_type scatter_edges(icontext_type& context, const vertex_type& vertex) const {$/;"	f	class:tree_based_search	access:public	signature:(icontext_type& context, const vertex_type& vertex) const
+tree_based_search::st	tree_based_search.cpp	/^	scatter_type st;$/;"	m	class:tree_based_search	file:	access:private
+tree_sparql	sparql.hpp	/^class tree_sparql{$/;"	c
+tree_sparql::cartesian_product_plan	sparql.hpp	/^	std::vector<std::vector<int> > cartesian_product_plan;$/;"	m	class:tree_sparql	access:public
+tree_sparql::height	sparql.hpp	/^	int height;$/;"	m	class:tree_sparql	access:public
+tree_sparql::init_test_sparql	sparql.hpp	/^	void init_test_sparql(){$/;"	f	class:tree_sparql	access:public	signature:()
+tree_sparql::root_id	sparql.hpp	/^	int root_id;$/;"	m	class:tree_sparql	access:public
+tree_sparql::vertices	sparql.hpp	/^	std::vector<single_vertex> vertices;$/;"	m	class:tree_sparql	access:public
+ts	tree_based_search.cpp	/^tree_sparql ts;$/;"	v
+vertex_id	sparql.hpp	/^	int vertex_id;$/;"	m	class:single_vertex	access:public
+vertex_intlable	tree_based_search.cpp	/^    int vertex_intlable;$/;"	m	struct:rdf_vertex	file:	access:public
+vertex_value	sparql.hpp	/^	int vertex_value;$/;"	m	class:single_vertex	access:public
+vertices	sparql.hpp	/^	std::vector<single_vertex> vertices;$/;"	m	class:tree_sparql	access:public
